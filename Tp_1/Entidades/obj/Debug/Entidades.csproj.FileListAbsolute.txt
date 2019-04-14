@@ -1,0 +1,6 @@
+D:\Visual Studio\tp_labotatorio_2\Tp_1\Entidades\bin\Debug\Entidades.dll
+D:\Visual Studio\tp_labotatorio_2\Tp_1\Entidades\bin\Debug\Entidades.pdb
+D:\Visual Studio\tp_labotatorio_2\Tp_1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Visual Studio\tp_labotatorio_2\Tp_1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Visual Studio\tp_labotatorio_2\Tp_1\Entidades\obj\Debug\Entidades.dll
+D:\Visual Studio\tp_labotatorio_2\Tp_1\Entidades\obj\Debug\Entidades.pdb
