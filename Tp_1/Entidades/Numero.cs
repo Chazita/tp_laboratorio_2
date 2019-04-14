@@ -59,7 +59,7 @@ namespace Entidades
         /// <returns></returns>
         public static string BinarioDecimal(string binario)
         {
-            string retorno = "Valor invalido\n";
+            string retorno = "Valor invalido";
 
             double cantidad = binario.Length;
             double numero = 0;
@@ -92,26 +92,26 @@ namespace Entidades
         /// <returns></returns>
         public static string DecimalBinario(double numero)
         {
-            string retorno = "Valor invalido\n";
-            string numeroBinario = "";
-            string numeroBinarioInvertido = "";
+            string retorno = "Valor invalido";
+            string numBinario = "";
+            string numBinarioInv = "";
             string aux = numero.ToString();
 
             if(numero != 0)
             {
                 while (numero != 0)
                 {
-                    numeroBinario += (int)numero % 2;
+                    numBinario += (int)numero % 2;
                     numero = (int)numero / 2;
                 }
 
                 if (numero == 0)
                 {
-                    for (int i = numeroBinario.Length - 1; i >= 0; i--)
+                    for (int i = numBinario.Length - 1; i >= 0; i--)
                     {
-                        numeroBinarioInvertido += numeroBinario[i];
+                        numBinarioInv += numBinario[i];
                     }
-                    retorno = numeroBinarioInvertido;
+                    retorno = numBinarioInv;
                 }
             }
             else
